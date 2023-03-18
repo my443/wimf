@@ -1,6 +1,6 @@
 import pygame
 
-class Main:
+class GameMain:
     running = True
     counter = 0
 

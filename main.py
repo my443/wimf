@@ -12,7 +12,7 @@ def print_hi(name):
     print(f'Hi, {variables.COLOURS.RED.value}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 def main():
-    new_game = game.game_main.Main()
+    new_game = game.game_main.GameMain()
     new_game.game_loop()
 
 
