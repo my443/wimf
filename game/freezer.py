@@ -1,4 +1,5 @@
 import variables
+import food
 class Freezer:
     freezer = []
 
