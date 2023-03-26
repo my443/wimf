@@ -6,7 +6,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(variables.COLOURS.RED.name, 'RED')
 
     def test_that_colour_contains_correct_value(self):
-        self.assertEqual(variables.COLOURS.GREEN.value, '#C70039')
+        self.assertEqual(variables.COLOURS.GREEN.value, (40, 180, 99))
 
 
 if __name__ == '__main__':

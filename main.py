@@ -7,7 +7,7 @@ import variables
 import pygame
 import game.game_main
 
-def print_hi(name):
+def show_a_colour_example(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {variables.COLOURS.RED.value}')  # Press Ctrl+F8 to toggle the breakpoint.
 
